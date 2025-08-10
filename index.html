@@ -3,109 +3,20 @@
 <head>
     <meta charset="UTF-8" />
     <title>Adhvaith</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-       
-        body {
-            font-family: 'Josefin Sans', sans-serif;
-            background-color: #ffdbc5;
-            padding:0px;
-            margin: 0px;
-            height: 100vh;
-            width: 100vw;
-        }
-         button{
-            outline:none;
-            border: none;
-            cursor: pointer;
-            font-family: 'Josefin Sans', sans-serif;
-        }
-        main {
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-
-div#info {width: 70%;}
-
-header#tabs {}
-
-div#socials {
-    padding: 10px;
-    margin: 10px;
-    background: #FFE0B2;
-    border-radius: 10px;
-}
-div#social-cover{
-    width: 30%;
-}
-div#socials-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-button#resume {
-    width: 100%;
-    margin: 10px 0px;
-    padding: 8px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    background: #1E88E5;
-    color: white;
-    font-weight: 600;
-}
-    #socials-header button {
-    padding: 10px;
-    border-radius: 10px;
-}
-
-button#x {background: #f3ff6c;}
-
-button#linkedin {
-    background: #a7a7ff;
-}    
-    </style>
+    <header>
+       <h1 style="font-weight: 400;">Adhvaith Prasad</h1>
+        <nav>
+            <ul>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="https://github.com/adhvaithprasad/">Github</a></li>
+                <li><a href="/portfolio.pdf">Resume</a></li>
+            </ul>
+        </nav></header>
    <main>
-    <div id="info">
-        <header id="tabs"> 
-            <button id="notes-tab">
-                <svg data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="color: currentcolor;"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 2.5H3V4.5H13V2.5ZM3 7.5V5.75H4.75L4.75 7.5H3ZM4.75 8.75H3V10.5H4.75V8.75ZM6 10.5L6 8.75H13V10.5H6ZM4.75 11.75H3V12.5C3 13.0523 3.44772 13.5 4 13.5H4.75V11.75ZM6 13.5V11.75H13V12.5C13 13.0523 12.5523 13.5 12 13.5H6ZM6 7.5V5.75H13V7.5H6ZM3 1H1.5V2.5V12.5C1.5 13.8807 2.61929 15 4 15H12C13.3807 15 14.5 13.8807 14.5 12.5V2.5V1H13H3Z" fill="currentColor"></path></svg>
-                Notes</button>
-            <button id="blogs-tab">
-                <svg data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="color: currentcolor;"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.28497 1.5H13V12C13 12.5523 12.5523 13 12 13H6.28497L6.28497 1.5ZM5.03497 1.5H3V12C3 12.5523 3.44772 13 4 13H5.03497L5.03497 1.5ZM5.03497 14.5H4C2.61929 14.5 1.5 13.3807 1.5 12V1.5V0H3H13H14.5V1.5V12C14.5 13.3807 13.3807 14.5 12 14.5H6.28497V15V15.625H5.03497V15V14.5ZM8.505 3.375H9.13H10.13H10.755V4.625H10.13H9.13H8.505V3.375ZM9.13 6.375H8.505V7.625H9.13H10.13H10.755V6.375H10.13H9.13Z" fill="currentColor"></path></svg>
-                Blog</button>
-            <button id="Resources-tab">
-                <svg data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="color: currentcolor;"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 1.5C1.90279 1.5 0 3.40279 0 5.75C0 6.78972 0.374315 7.74397 0.994693 8.48243L2.14319 7.51757C1.74136 7.03926 1.5 6.42379 1.5 5.75C1.5 4.23122 2.73122 3 4.25 3H8.5C10.0188 3 11.25 4.23122 11.25 5.75C11.25 7.26878 10.0188 8.5 8.5 8.5V10C10.8472 10 12.75 8.09721 12.75 5.75C12.75 3.40279 10.8472 1.5 8.5 1.5H4.25ZM11.75 13L7.5 13C5.98122 13 4.75 11.7688 4.75 10.25C4.75 8.73122 5.98122 7.5 7.5 7.5V6C5.15279 6 3.25 7.90279 3.25 10.25C3.25 12.5972 5.15279 14.5 7.5 14.5L11.75 14.5C14.0972 14.5 16 12.5972 16 10.25C16 9.21028 15.6257 8.25603 15.0053 7.51757L13.8568 8.48243C14.2586 8.96074 14.5 9.57621 14.5 10.25C14.5 11.7688 13.2688 13 11.75 13Z" fill="currentColor"></path></svg>
-                Resources</button>
-        </header>
-        <div id="tab-info"></div>
-    </div>
-    <div id="social-cover">
-        <div id="socials">
-            <div id="socials-header">
-                <button id="x"><svg data-testid="geist-icon" height="25" stroke-linejoin="round" viewBox="0 0 16 16" width="25" style="color: currentcolor;"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 0.5H5.75L9.48421 5.71053L14 0.5H16L10.3895 6.97368L16.5 15.5H11.25L7.51579 10.2895L3 15.5H1L6.61053 9.02632L0.5 0.5ZM12.0204 14L3.42043 2H4.97957L13.5796 14H12.0204Z" fill="currentColor"></path></svg></button>
-                <button id="github"><svg data-testid="geist-icon" height="25" stroke-linejoin="round" viewBox="0 0 16 16" width="25" style="color: currentcolor;"><g clip-path="url(#clip0_872_3147)">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.57879 0 7.99729C0 11.5361 2.29 14.5251 5.47 15.5847C5.87 15.6547 6.02 15.4148 6.02 15.2049C6.02 15.0149 6.01 14.3851 6.01 13.7154C4 14.0852 3.48 13.2255 3.32 12.7757C3.23 12.5458 2.84 11.836 2.5 11.6461C2.22 11.4961 1.82 11.1262 2.49 11.1162C3.12 11.1062 3.57 11.696 3.72 11.936C4.44 13.1455 5.59 12.8057 6.05 12.5957C6.12 12.0759 6.33 11.726 6.56 11.5261C4.78 11.3262 2.92 10.6364 2.92 7.57743C2.92 6.70773 3.23 5.98797 3.74 5.42816C3.66 5.22823 3.38 4.40851 3.82 3.30888C3.82 3.30888 4.49 3.09895 6.02 4.1286C6.66 3.94866 7.34 3.85869 8.02 3.85869C8.7 3.85869 9.38 3.94866 10.02 4.1286C11.55 3.08895 12.22 3.30888 12.22 3.30888C12.66 4.40851 12.38 5.22823 12.3 5.42816C12.81 5.98797 13.12 6.69773 13.12 7.57743C13.12 10.6464 11.25 11.3262 9.47 11.5261C9.76 11.776 10.01 12.2558 10.01 13.0056C10.01 14.0752 10 14.9349 10 15.2049C10 15.4148 10.15 15.6647 10.55 15.5847C12.1381 15.0488 13.5182 14.0284 14.4958 12.6673C15.4735 11.3062 15.9996 9.67293 16 7.99729C16 3.57879 12.42 0 8 0Z" fill="currentColor"></path>
-  </g>
-  <defs>
-  <clipPath id="clip0_872_3147">
-  <rect width="16" height="16" fill="white"></rect>
-  </clipPath>
-  </defs></svg> </button>
-                <button id="linkedin"><svg data-testid="geist-icon" height="25" stroke-linejoin="round" viewBox="0 0 16 16" width="25" style="color: currentcolor;"><path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M2 0C0.895431 0 0 0.895431 0 2V14C0 15.1046 0.895431 16 2 16H14C15.1046 16 16 15.1046 16 14V2C16 0.895431 15.1046 0 14 0H2ZM5 6.75V13H3V6.75H5ZM5 4.50008C5 5.05554 4.61409 5.5 3.99408 5.5H3.98249C3.38582 5.5 3 5.05554 3 4.50008C3 3.93213 3.39765 3.5 4.00584 3.5C4.61409 3.5 4.98845 3.93213 5 4.50008ZM8.5 13H6.5C6.5 13 6.53178 7.43224 6.50007 6.75H8.5V7.78371C8.5 7.78371 9 6.75 10.5 6.75C12 6.75 13 7.59782 13 9.83107V13H11V10.1103C11 10.1103 11 8.46616 9.7361 8.46616C8.4722 8.46616 8.5 9.93972 8.5 9.93972V13Z" fill="currentColor"></path></svg></button>
-            </div>
-            <button id="resume">Download resume</button>
-        </div>
-        <div id="git">
-       <div id="git-header"><h3><svg data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="color: currentcolor;"><path clip-rule="evenodd" d="M4.25 0C3.00736 0 2 1.00736 2 2.25V11V11.25V11.5C2 12.5252 2.61705 13.4062 3.5 13.792V11.5V11.25V11C3.5 10.4477 3.94772 10 4.5 10H12.5V11.2305V12.5H10.5V14H12.5H14V12.5V11.2305V10V8.5V0.75V0H13.25H4.25ZM12.5 8.5V1.5H4.25C3.83579 1.5 3.5 1.83579 3.5 2.25V8.70802C3.80623 8.57422 4.14445 8.5 4.5 8.5H12.5ZM5.5 11.5C5.22386 11.5 5 11.7239 5 12V16L7 14.75L9 16V12C9 11.7239 8.77614 11.5 8.5 11.5H5.5Z" fill="currentColor" fill-rule="evenodd"></path></svg> 
-        Repositories</h3></div>
-       <div id="git-repos"></div>
-        </div>
-    </div>
-   </main>
+      <img src="https://www.singulart.com/blog/wp-content/uploads/2023/08/image-68-1140x1417.png" alt="" >
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/075uvCL2TSgyNnKE27BILY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>   </main>
 </body>
 </html>
